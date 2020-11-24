@@ -1,0 +1,82 @@
+body {
+	background: #8FBC8F;
+	color: #2F4F4F;
+	font-family: Arial;
+	text-align: center;
+	margin: 0;
+}
+
+h2, h3, p {
+	margin: 0;
+}
+
+#hdr {
+	min-height: 220px;
+	padding-top: 3em;
+	padding-bottom: 0;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+}
+
+.dest {
+	background: #FFEFD5;
+	width: 40%;
+	display: inline-block;
+}
+
+img {
+	width: 100%;
+}
+
+.btn {
+	text-decoration: none;
+	color: #2F4F4F;
+	padding: 1em 2em;
+	border: 1px solid #2F4F4F;
+	display: inline-block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.btn:hover {
+	background: #FFEFD5;
+}
+
+.hdr-bg {
+	background: url("../images/sweet1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 260px;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.3;
+	margin: 0;
+}
+
+h2, h3 {
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+}
+
+.contact {
+	background: #FFEFD5;
+	min-height: 100px;
+}
+
+.prices {
+	background: #FFEFD5;
+	min-height: 100px;
+}
+
+footer {
+	min-height: 50px;
+	background: #F0FFFF;
+	color: black;
+	line-height: 50px;
+}
+
+section {
+	padding-bottom: 1.5em;
+}
